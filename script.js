@@ -21,10 +21,11 @@ class Rectangle {
 class Square extends Animal {
 	constructor(side){
         super(side, side);
+		this.side = side;
     }
 
 	getPerimeter(){
-		return 4 * this.width;
+		return 4 * this.side;
 	}
 }
 
