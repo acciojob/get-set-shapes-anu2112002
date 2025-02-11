@@ -14,7 +14,7 @@ class Rectangle {
 	}
 
 	getArea(){
-		return `${this._width}*${this._height}`;
+		return this._width * this._height;
 	}
 }
 
@@ -24,7 +24,7 @@ class Square extends Animal {
 	}
 
 	getPerimeter(){
-		return `4*${this.side}`;
+		return 4 * this.side;
 	}
 }
 
